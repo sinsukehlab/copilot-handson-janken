@@ -1,7 +1,7 @@
 # GitHub Copilot Handson コンテンツ
 
 # はじめに
-このリポジトリは、GitHub Copilotのハンズオンコンテンツを提供するためのリポジトリです。
+このリポジトリは、GitHub Copilotのハンズオンコンテンツを提供するためのリポジトリです。</br>
 Visual Studio Code、もしくはCodespacesで利用することを想定しています。
 
 # 事前準備（既にGitHub Copilotが利用可能な方、Codespacesを利用する方はスキップしてください）
@@ -13,26 +13,28 @@ GitHub Copilotを利用するためには、以下の拡張機能が必要です
 インストール後、Visual Studio Codeのウインドウ右下に表示される以下のポップアップから `Sign in to GitHub` をクリックします。  
 ![](assets/image01.png)
 
-ブラウザが開き、GitHubの認証が求められるのでログインします。
+ブラウザが開き、GitHubの認証が求められるのでログインします。</br>
 Visual Studio Codeに戻り、GitHub Copilotのアイコンが以下のように表示されていれば準備完了です。  
 ![](assets/image02.png)
 
-GitHub Copilot Chatは、左ペインの以下ののアイコンをクリックすることで使用可能です。
-![image](https://github.com/GitHub-AP-Communications-Lab/copilot-handson-janken/assets/131101198/d2dafaab-e1b3-46d4-aa41-6e78f59be7d8)
-
-更に、GitHub Copilot Chatはコード上でInline Chatとしても使用可能です。
-ファイルを開き、行番号をクリック後、表示される黄色の星形のアイコンをクリックしてください。
-![image](https://github.com/GitHub-AP-Communications-Lab/copilot-handson-janken/assets/131101198/a4a605b0-f0a0-42fd-9fe8-d063c7d2da5f)
-
-
 # 利用方法
-本リポジトリをクローンし、Visual Studio Codeで開いてください。
+本リポジトリをクローンし、Visual Studio Codeで開いてください。</br>
 Codespacesを利用する方は、GitHubの画面上から `Create codespace on main` をクリックしCodespacesを起動してください。
 
 ![](image.png)
 
+# GitHub Copilot Chat開始方法
+GitHub Copilot Chatは、左ペインの以下ののアイコンをクリックすることで使用可能です。
+![image](https://github.com/GitHub-AP-Communications-Lab/copilot-handson-janken/assets/131101198/d2dafaab-e1b3-46d4-aa41-6e78f59be7d8)
+
+更に、GitHub Copilot Chatはコード上でInline Chatとしても使用可能です。</br>
+Visual Studio 2022やVisual Studio Codeをご利用の場合は行番号をクリック後、表示される黄色の星形のアイコンをクリックしてください。
+![image](https://github.com/GitHub-AP-Communications-Lab/copilot-handson-janken/assets/131101198/d6d1a7b6-3a09-4494-92eb-5bc860cbccb6)
+GitHub Codespacesの場合は、行番号をクリック後、表示される黄色の電球のアイコンをクリックし、`Copilotを使用して変更する`をクリックしてください。</br>
+![image](https://github.com/GitHub-AP-Communications-Lab/copilot-handson-janken/assets/131101198/728eeddc-c344-484e-8d48-1ea374bfbee3)
+
 # ハンズオンコンテンツ
-以下のディレクトリにコンテンツを用意しています。
+以下のディレクトリにコンテンツを用意しています。</br>
 - [ハンズオン: コンソールアプリケーション作成（じゃんけんゲーム）](./handson/README.md)
 
 # GitHub Copilot チートシート
