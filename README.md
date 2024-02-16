@@ -17,6 +17,14 @@ GitHub Copilotを利用するためには、以下の拡張機能が必要です
 Visual Studio Codeに戻り、GitHub Copilotのアイコンが以下のように表示されていれば準備完了です。  
 ![](assets/image02.png)
 
+GitHub Copilot Chatは、左ペインの以下ののアイコンをクリックすることで使用可能です。
+![image](https://github.com/GitHub-AP-Communications-Lab/copilot-handson-janken/assets/131101198/d2dafaab-e1b3-46d4-aa41-6e78f59be7d8)
+
+更に、GitHub Copilot Chatはコード上でInline Chatとしても使用可能です。
+ファイルを開き、行番号をクリック後、表示される黄色の星形のアイコンをクリックしてください。
+![image](https://github.com/GitHub-AP-Communications-Lab/copilot-handson-janken/assets/131101198/a4a605b0-f0a0-42fd-9fe8-d063c7d2da5f)
+
+
 # 利用方法
 本リポジトリをクローンし、Visual Studio Codeで開いてください。
 Codespacesを利用する方は、GitHubの画面上から `Create codespace on main` をクリックしCodespacesを起動してください。
@@ -48,5 +56,5 @@ GitHub Copilot Chatの使い方については、以下のチートシートを�
 | 修正を提案させる | /fix | 〇| 〇|
 | テストコードを提案させる | /tests | 〇| 〇|
 | コメントを書く | /dec | 〇| 〇|
-| チャットの履歴を消去し、新たな会話を開始する | /clear | 〇| X |
+| チャットの履歴を消去し、新たな会話を開始する | /newChat | 〇| X |
 | 使い方を表示する | /help | 〇| 〇|
