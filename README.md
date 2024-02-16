@@ -21,17 +21,17 @@ Visual Studio Codeに戻り、GitHub Copilotのアイコンが以下のように
 本リポジトリをクローンし、Visual Studio Codeで開いてください。</br>
 Codespacesを利用する方は、GitHubの画面上から `Create codespace on main` をクリックしCodespacesを起動してください。
 
-![](image.png)
+![](assets/image03.png)
 
 # GitHub Copilot Chat開始方法
-GitHub Copilot Chatは、左ペインの以下ののアイコンをクリックすることで使用可能です。
-![image](https://github.com/GitHub-AP-Communications-Lab/copilot-handson-janken/assets/131101198/d2dafaab-e1b3-46d4-aa41-6e78f59be7d8)
+GitHub Copilot Chatは、左ペインの以下ののアイコンをクリックすることで使用可能です。</br>
+![image](assets/image04.png)
 
 更に、GitHub Copilot Chatはコード上でInline Chatとしても使用可能です。</br>
 Visual Studio 2022やVisual Studio Codeをご利用の場合は行番号をクリック後、表示される黄色の星形のアイコンをクリックしてください。
-![image](https://github.com/GitHub-AP-Communications-Lab/copilot-handson-janken/assets/131101198/d6d1a7b6-3a09-4494-92eb-5bc860cbccb6)
+![image](assets/image05.png)
 GitHub Codespacesの場合は、行番号をクリック後、表示される黄色の電球のアイコンをクリックし、`Copilotを使用して変更する`をクリックしてください。</br>
-![image](https://github.com/GitHub-AP-Communications-Lab/copilot-handson-janken/assets/131101198/728eeddc-c344-484e-8d48-1ea374bfbee3)
+![image](assets/image06.png)
 
 # ハンズオンコンテンツ
 以下のディレクトリにコンテンツを用意しています。</br>
