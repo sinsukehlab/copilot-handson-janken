@@ -24,7 +24,7 @@ Codespacesを利用する方は、GitHubの画面上から `Create codespace on 
 ![](assets/image03.png)
 
 # GitHub Copilot Chat開始方法
-GitHub Copilot Chatは、左ペインの以下ののアイコンをクリックすることで使用可能です。</br>
+GitHub Copilot Chatは、左ペインの以下のアイコンをクリックすることで使用可能です。</br>
 ![image](assets/image04.png)
 
 更に、GitHub Copilot Chatはコード上でInline Chatとしても使用可能です。</br>
