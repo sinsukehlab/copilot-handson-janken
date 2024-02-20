@@ -29,7 +29,9 @@ GitHub Copilot Chatは、左ペインの以下のアイコンをクリックす�
 
 更に、GitHub Copilot Chatはコード上でInline Chatとしても使用可能です。</br>
 Visual Studio 2022やVisual Studio Codeをご利用の場合は行番号をクリック後、表示される黄色の星形のアイコンをクリックしてください。
+
 ![image](assets/image05.png)
+
 GitHub Codespacesの場合は、行番号をクリック後、表示される黄色の電球のアイコンをクリックし、`Copilotを使用して変更する`をクリックしてください。</br>
 ![image](assets/image06.png)
 
