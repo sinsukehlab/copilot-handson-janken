@@ -1,5 +1,6 @@
 import unittest
 from unittest.mock import patch
+import random
 import app
 
 class TestApp(unittest.TestCase):
