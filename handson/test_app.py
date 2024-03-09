@@ -19,11 +19,12 @@ class TestApp(unittest.TestCase):
         }
 
         for (input_value, random_value), outcome in outcomes.items():
-            with patch('app.input', return_value=str(input_value)), \
-                 patch('app.random.randint', return_value=random_value), \
-                 patch('builtins.print') as mocked_print:
-                app.main()
-                mocked_print.assert_any_call(outcome)
+            with self.subTest(input_value=input_value, random_value=random_value):
+                with patch('app.input', return_value=str(input_value)), \
+                     patch('app.random.randint', return_value=random_value), \
+                     patch('builtins.print') as mocked_print:
+                    app.main()
+                    mocked_print.assert_any_call(outcome)
 
 if __name__ == '__main__':
     unittest.main()
