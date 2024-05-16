@@ -1,5 +1,5 @@
 import unittest
-from handson.sample.app import judge
+from app import judge
 
 class TestJudge(unittest.TestCase):
     def test_judge_draw(self):
