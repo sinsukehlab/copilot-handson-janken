@@ -5,8 +5,7 @@
 Codespacesで利用することを想定しています。
 
 # 利用方法
-本リポジトリをクローンし、Visual Studio Codeで開いてください。</br>
-Codespacesを利用する方は、GitHubの画面上から `Create codespace on main` をクリックしCodespacesを起動してください。
+GitHubの画面上から `Create codespace on main` をクリックしCodespacesを起動してください。
 
 ![](assets/image03.png)
 
@@ -15,12 +14,16 @@ GitHub Copilot Chatは、左ペインの以下のアイコンをクリックす�
 ![image](assets/image04.png)
 
 更に、GitHub Copilot Chatはコード上でInline Chatとしても使用可能です。</br>
-Visual Studio 2022やVisual Studio Codeをご利用の場合は行番号をクリック後、表示される黄色の星形のアイコンをクリックしてください。
+行番号をクリック後、表示される黄色の星形のアイコンをクリックし、`Copilotを使用して変更する`をクリックしてください。</br>
 
 ![image](assets/image05.png)
 
-GitHub Codespacesの場合は、行番号をクリック後、表示される黄色の電球のアイコンをクリックし、`Copilotを使用して変更する`をクリックしてください。</br>
 ![image](assets/image06.png)
+
+Visual Studio 2022やVisual Studio Codeをご利用の場合は行番号をクリック後、表示される黄色の星形のアイコンをクリックしてください。
+
+![image](assets/image07.png)
+
 
 # ハンズオンコンテンツ
 以下のディレクトリにコンテンツを用意しています。</br>
@@ -42,7 +45,6 @@ GitHub Copilotの使い方については、以下のチートシートを参照
 GitHub Copilot Chatの使い方については、以下のチートシートを参照してください。
 | 内容 | 操作方法 | Chat Window | Inline Chat |
 | --- | --- | --- | --- |
-| コメントを書く | /doc | 〇| 〇|
 | コードの内容を解説させる | /explain | 〇| 〇|
 | 修正を提案させる | /fix | 〇| 〇|
 | テストコードを提案させる | /tests | 〇| 〇|
