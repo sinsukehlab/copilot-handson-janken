@@ -54,13 +54,20 @@ Codespaces のターミナルで以下のコマンドを実行します。
     ```
 
 3. App Service でアプリケーションを起動します。F1 プランは無料プランです。
+`<Webアプリの名前を指定>` には任意の名前を指定してください。アルファベット、数字、ハイフンのみ使用可能です。
 
     ```bash
     cd /workspaces/copilot-handson-janken/handson-webapp/
-    az webapp up -g copilot-handson-janken -l japaneast --sku F1 --runtime "PYTHON|3.12"
+    az webapp up -n <Webアプリの名前を指定> -g copilot-handson-janken -l japaneast --sku F1 --runtime "PYTHON|3.12"
     ```
 
-4. 実行結果に表示された URL にアクセスします。
+4. ブラウザで以下の URL にアクセスしてください。
+`<Webアプリの名前を指定>` には先ほど指定した名前を指定してください。
+
+    ```
+    https://<Webアプリの名前を指定>.azurewebsites.net
+    ```
+
 
 5. 確認後、リソースグループを削除することで作成した環境をクリーンアップできます。
 
