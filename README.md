@@ -28,6 +28,8 @@ Visual Studio 2022やVisual Studio Codeをご利用の場合は行番号をク�
 # ハンズオンコンテンツ
 以下のディレクトリにコンテンツを用意しています。</br>
 - [ハンズオン: コンソールアプリケーション作成（じゃんけんゲーム）](./handson/README.md)
+- [ハンズオン: Web アプリケーション作成（じゃんけんゲーム）](./handson-webapp/README.md)
+
 
 # GitHub Copilot チートシート
 GitHub Copilotの使い方については、以下のチートシートを参照してください。
