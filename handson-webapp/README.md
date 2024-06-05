@@ -44,16 +44,19 @@ Codespaces のターミナルで以下のコマンドを実行します。
 1. Azure CLI で Azure にログインします。
     
     ```bash
-    az login
+    # use
+    az login --use-device-code
     ```
+    上記コマンド実行後、ブラウザの別タブを開きhttps://microsoft.com/devicelogin にアクセスします。  
+    コンソール上に表示されたコードを上記ページで入力してログインしてください。
 
-2. Azure CLI で App Service にデプロイするためのリソースグループを作成します。
+3. Azure CLI で App Service にデプロイするためのリソースグループを作成します。
 
     ```bash
     az group create --name copilot-handson-janken --location japaneast
     ```
 
-3. App Service でアプリケーションを起動します。F1 プランは無料プランです。
+4. App Service でアプリケーションを起動します。F1 プランは無料プランです。
 `<Webアプリの名前を指定>` には任意の名前を指定してください。アルファベット、数字、ハイフンのみ使用可能です。
 
     ```bash
@@ -61,7 +64,7 @@ Codespaces のターミナルで以下のコマンドを実行します。
     az webapp up -n <Webアプリの名前を指定> -g copilot-handson-janken -l japaneast --sku F1 --runtime "PYTHON|3.12"
     ```
 
-4. ブラウザで以下の URL にアクセスしてください。
+5. ブラウザで以下の URL にアクセスしてください。
 `<Webアプリの名前を指定>` には先ほど指定した名前を指定してください。
 
     ```
@@ -69,7 +72,7 @@ Codespaces のターミナルで以下のコマンドを実行します。
     ```
 
 
-5. 確認後、リソースグループを削除することで作成した環境をクリーンアップできます。
+6. 確認後、リソースグループを削除することで作成した環境をクリーンアップできます。
 
     ```bash
     az group delete --name copilot-handson-janken
