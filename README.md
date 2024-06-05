@@ -52,3 +52,5 @@ GitHub Copilot Chatの使い方については、以下のチートシートを�
 | テストコードを提案させる | /tests | 〇| 〇|
 | チャットの履歴を消去し、新たな会話を開始する | /clear | 〇| X |
 | 使い方を表示する | /help | 〇| 〇|
+
+※GitHub Copilot Chat画面ではShift+Enterキーで改行が可能です
